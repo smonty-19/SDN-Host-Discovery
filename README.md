@@ -174,24 +174,37 @@ Observed:
 ## Proof of Execution
 
 The following evidence is included:
-
+ 
 * Controller logs (host discovery & flow installation)
-![Controller starts](screenshots/Controller.png)
-![Database Table](screenshots/database.png)
+ 
+  ![Controller starts](screenshots/Controller.png)
+  ![Database Table](screenshots/database.png)
+ 
 * Mininet topology
-![Topology](screenshots/Topology.png)
+ 
+  ![Topology](screenshots/Topology.png)
+ 
 * Flow table output
-![Flow Table](screenshots/FlowTable.png)
+ 
+  ![Flow Table](screenshots/FlowTable.png)
+ 
 * Successful ping
-![On pinging h2 or h3](screenshots/ping_success.png)
+ 
+  ![On pinging h2 or h3](screenshots/ping_success.png)
+ 
 * Blocked ping
-![On pinging h4](screenshots/ping_blocked.png)
+ 
+  ![On pinging h4](screenshots/ping_blocked.png)
+ 
 * iperf results
-![Bandwidth Analysis](screenshots/iperf.png)
+ 
+  ![Bandwidth Analysis](screenshots/iperf.png)
+ 
 * Wireshark packet capture
-![Analysing Packets](screenshots/wireshark1.png)
-![Checking the ethernet details](screenshots/wireshark2.png)
-
+ 
+  ![Analysing Packets](screenshots/wireshark1.png)
+  ![Checking the ethernet details](screenshots/wireshark2.png)
+ 
 ---
 
 ## Functional Features Implemented
